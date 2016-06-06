@@ -1,0 +1,29 @@
+{
+  "name": "nxmix-api",
+  "version": "0.0.1",
+  "description": "nxmin api wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhuangya/nxmix-api.git"
+  },
+  "keywords": [
+    "nxmix",
+    "api"
+  ],
+  "author": "Ya Zhuang <zhuangya@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhuangya/nxmix-api/issues"
+  },
+  "homepage": "https://github.com/zhuangya/nxmix-api#readme",
+  "dependencies": {
+    "date-fns": "^1.3.0",
+    "got": "^6.3.0",
+    "nxmix-auth-header": "0.0.1",
+    "qs": "^6.2.0"
+  }
+}
