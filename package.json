@@ -1,6 +1,6 @@
 {
   "name": "nxmix-api",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "nxmin api wrapper",
   "main": "index.js",
   "scripts": {
@@ -25,5 +25,9 @@
     "got": "^6.3.0",
     "nxmix-auth-header": "0.0.1",
     "qs": "^6.2.0"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2",
+    "dotenv": "^2.0.0"
   }
 }
