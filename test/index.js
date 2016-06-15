@@ -2,15 +2,7 @@
 
 import test from 'ava';
 import got from 'got';
-import dotenv from 'dotenv';
 import {addDays} from 'date-fns';
-
-try {
-  dotenv.config();
-} catch (e) {
-  console.log(e);
-  console.log('there is no .env file, read from process.env');
-}
 
 import nxmixCrafter from '..';
 
