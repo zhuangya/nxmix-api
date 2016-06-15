@@ -1,6 +1,6 @@
 {
   "name": "nxmix-api",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "nxmin api wrapper",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   "dependencies": {
     "date-fns": "^1.3.0",
     "got": "^6.3.0",
-    "nxmix-auth-header": "0.0.1",
+    "nxmix-auth-header": "^0.1.0",
     "qs": "^6.2.0"
   },
   "devDependencies": {

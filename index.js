@@ -21,7 +21,12 @@ module.exports = function (pKey, pSecret) {
       return got(url, {
         headers: nxHeader(this.pKey, this.pSecret, url),
         json: true
-      })
+      }).catch(reason => {
+        return Promise.reject({
+          status: reason.statusCode,
+          reason: reason.message
+        });
+      });
     }
 
     calendar(from, to, without) {
